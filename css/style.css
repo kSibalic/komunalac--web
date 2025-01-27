@@ -212,7 +212,7 @@ article#main-col{
 
 /* Services */
 ul#services li{
-  width: 1000px;
+  width: 97.25%;
   list-style: none;
   padding:20px;
   border: #cccccc solid 1px;
@@ -444,7 +444,7 @@ p {
 
 .footeri {
   width: 100%;
-  background: #eee;
+  background: #e6e6e6;
   display: block;
 }
 
