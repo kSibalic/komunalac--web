@@ -1,0 +1,542 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+  overflow-x: hidden;
+}
+
+/* Global */
+.container{
+  font: 16px/1.5 Arial, Helvetica,sans-serif;
+  width:90%;
+  margin:auto;
+  overflow:hidden;
+  line-height: 1.8;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.dark{
+  font: 16px/1.5 Arial, Helvetica,sans-serif;
+  padding:15px;
+  background:#25333b;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+  line-height: 1.8;
+}
+
+/* Header 
+1f7cc3
+79ad37*/
+header{
+  background:#25333b;
+  color:#1f7cc3;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#79ad37 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:13px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 20px 30px 15px 0px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#79ad37;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#1f7cc3;
+  transition: .5s;
+}
+
+.cool-link {
+  font-size: 13px;
+}
+
+/*
+.cool-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #79ad37;
+  transition: width .3s;
+}
+
+.cool-link:hover::after {
+  width: 100%;
+  transition: width .5s;
+}
+*/
+
+/* Showcase */
+#showcase{
+  min-height: 450px;
+  background:url('../img/pozadina2.png') no-repeat 0 -300px;
+  background-size: auto;
+  background-position: center;
+  text-align:center;
+  color:#ffffff;
+}
+
+#showcase1{
+  min-height: 450px;
+  background:url('../img/motorlawn.jpg') no-repeat 0 -300px;
+  background-size: auto;
+  background-position: center;
+  text-align:center;
+  color:#ffffff;
+}
+
+#showcase2{
+  min-height: 450px;
+  background:url('../img/cesta.jpg') no-repeat 0 -300px;
+  background-size: auto;
+  background-position: center;
+  text-align:center;
+  color:#ffffff;
+}
+
+#showcase3{
+  min-height: 450px;
+  background:url('../img/polje.jpg') no-repeat 0 -300px;
+  background-size: auto;
+  background-position: center;
+  text-align:center;
+  color:#ffffff;
+}
+
+#showcase4{
+  min-height: 450px;
+  background:url('../img/groblje.jpg') no-repeat 0 -300px;
+  background-size: auto;
+  background-position: center;
+  text-align:center;
+  color:#ffffff;
+}
+
+#showcase5{
+  min-height: 450px;
+  background:url('../img/snijeg.jpg') no-repeat 0 -300px;
+  background-size: auto;
+  background-position: center;
+  text-align:center;
+  color:#ffffff;
+}
+
+#showcase6{
+  min-height: 450px;
+  background:url('../img/dom.png') no-repeat 0 -300px;
+  background-size: auto;
+  background-position: center;
+  text-align:center;
+  color:#ffffff;
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size: 20px;
+}
+
+/* Boxes */
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:20%;
+  padding:20px;
+  padding-left: 290px;
+}
+
+#boxes h3 {
+  color: #79ad37;
+}
+
+#boxes .box img{
+  width:90px;
+}
+
+/* Sidebar */
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:90%;
+  padding:5px;
+}
+
+/* Main-col */
+article#main-col{
+  float:left;
+  width:65%;
+}
+
+/* Services */
+ul#services li{
+  width: 1000px;
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:10px;
+  background:#e6e6e6;
+}
+
+footer{
+  padding:5px;
+  margin-top:0px;
+  color:#ffffff;
+  background-color:#28333a;
+  text-align: center;
+  font-weight: bold;
+  position: sticky;
+}
+
+/* Media Queries */
+@media(max-width: 966px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  header {
+    align-items: center;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+  }
+
+  header li{
+    display: block;
+    margin-top: 10px;
+    transition: ease-in-out 1s;
+  }
+  header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:14px;
+  }
+  .highlight {
+    margin-left: 55px;
+  }
+  .navigacija {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-left: -15px;
+  }
+}
+
+@media(max-width: 535px) {
+  header {
+    align-items: center;
+  }
+  .navigacija {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-left: -20px;
+  }
+  .highlight {
+    margin-left: 40px;
+  }
+  section {
+    margin-left: -10px;
+  }
+}
+
+.text{
+  padding-left: 5px;
+  margin-top: 5px;
+  text-decoration: none;
+}
+
+.link {
+  font-weight: normal;
+  text-decoration: none;
+  color: #79ad37;
+  font-size: 18px;
+}
+
+.link:hover {
+  color: #1f7cc3;
+  transition: all .4s;
+}
+
+.link4 {
+  font-weight: normal;
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+
+.link4:hover {
+  color: #1f7cc3;
+  transition: all .4s;
+}
+
+.linkc {
+  font-weight: normal;
+  text-decoration: none;
+  color: #e22f2f;
+  font-size: 18px;
+}
+
+.linkc:hover {
+  font-weight: normal;
+  text-decoration: none;
+  color: #79ad37;
+  font-size: 18px;
+  transition: all .4s;
+}
+
+.page-title {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.dokumenti {
+  font-size: 20px;
+}
+
+.vise {
+  text-decoration: none;
+  color: #1f7cc3;
+}
+
+.vise:hover {
+  color: #79ad37;
+  transition: all .3s;
+}
+
+.logok {
+  position: absolute;
+  margin-left: -55px;
+  margin-top: 1px;
+}
+
+/*AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.navigacija .dropdown .dropbtn {
+  font: 13px/1.5 Arial, Helvetica,sans-serif;
+}
+.dropdown .dropbtn { 
+  border: none;
+  outline: none;
+  color: white;
+  padding-top: 25px;
+  padding-right: 30px;
+  background-color: inherit;
+  margin: 0;
+}
+.dropdown:hover .dropbtn {
+  color: #1f7cc3;
+  transition: all .4s;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #eeeeee;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font: 12px/1.5 Arial, Helvetica,sans-serif;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.link1 {
+  font-weight: normal;
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+
+.link2 {
+  font-weight: normal;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.link1:hover {
+  color: #79ad37;
+  transition: all .4s;
+}
+
+.link2:hover {
+  color: #79ad37;
+  transition: all .4s;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.footeri {
+  width: 100%;
+  background: #eee;
+  display: block;
+}
+
+.inner-footer {
+  width: 95%;
+  margin: auto;
+  padding: 30px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.footer-items {
+  width: 45%;
+  padding: 10px 30px;
+  box-sizing: border-box;
+}
+
+.footer-items h1 {
+  padding: 10px 0;
+  font-size: 25px;
+  color: #79ad37;
+  text-transform: uppercase;
+}
+
+.footer-items p {
+  color: grey;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 25px;
+}
+
+.footer-items h2 {
+  margin: 10px 0;
+  color: #79ad37;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+/*
+.border {
+  height: 2px;
+  width: 45px;
+  background: #1f7cc3;
+}
+*/
+
+.footer-items ul {
+  list-style: none;
+  color: grey;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+.footer-items ul a {
+  text-decoration: none;
+  outline: none;
+  color: #111;
+  transition: 0.3s;
+}
+
+.footer-items ul a:hover {
+  color: #1f7cc3;
+}
+
+.footer-items ul li {
+  margin: 10px 0;
+  height: 25px;
+}
+
+.footer-items li i {
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 1085px) {
+  .footer-items {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 966px) {
+    .navigacija ul .dropdown .dropbtn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer-items {
+    width: 100%;
+  }
+  .navigacija ul .dropdown .dropbtn {
+    display: none;
+  }
+}
