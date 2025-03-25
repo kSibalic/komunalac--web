@@ -99,7 +99,7 @@ header a:hover{
 
 /* Showcase */
 #showcase{
-  min-height: 450px;
+  min-height: 540px;
   background:url('../img/pozadina2.png') no-repeat 0 -300px;
   background-size: auto;
   background-position: center;
